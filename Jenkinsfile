@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build app') {
             steps {
-                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/NinadTippat/ISE3.git']])
+                checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: '']])
             }
         }
 
